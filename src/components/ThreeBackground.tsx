@@ -26,7 +26,7 @@ export const ThreeBackground: React.FC<ThreeBackgroundProps> = ({ onLoadComplete
   const scrollRef = useRef(0);
 
   const isMobile = /Mobile|iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
-  const buildName = `Sepeint_WebGL_${isMobile ? 'astc' : 'dxt'}`;
+  const buildName = `Zorvent_WebGL_${isMobile ? 'astc' : 'dxt'}`;
   const perfTier = getPerfTier();
   const effectiveDpr = perfTier === 'low' ? 0.5 : perfTier === 'mid' ? 0.75 : 1.0;
 
